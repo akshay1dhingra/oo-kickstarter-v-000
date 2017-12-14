@@ -8,6 +8,10 @@ class Backer
     @name = name
   end
 
+  def back_project(title)
+    @title = title
+    backed_projects << title
+  end
 
 
 
