@@ -7,8 +7,8 @@ class Backer
     @backed_projects = []
   end
 
-  def back_project(project)
-    @backed_projects << project
+  def back_project(projectt)
+    @backed_projects << projectt
     binding.pry
   end
 
